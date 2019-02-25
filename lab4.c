@@ -46,6 +46,9 @@ void format_words() {
     }
 }
 
+/*
+    Combined format_words and squeeze_spaces
+*/
 void squeeze_spaces_and_format_words() {
     int c, pc = ' ';
     while ((c = getchar()) != EOF) {
