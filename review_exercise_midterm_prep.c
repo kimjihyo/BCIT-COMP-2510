@@ -198,8 +198,9 @@ size_t count_number_of_alphas_in_text_file(char *file_name) {
 }
 
 int main() {
-    char s[1024];
-    ltrim_copy(s, "  helo world!");
-    printf("%s\n", s);
+    char word[50] = "       hello";
+    char dest[125];
+    ltrim_copy(dest, word);
+    printf("%s\n", dest);
     return 0;
 }
